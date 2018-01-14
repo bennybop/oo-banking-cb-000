@@ -12,8 +12,8 @@ class BankAccount
     self.balance += deposit_amount
   end
 
-  def display_balance(balance)
-    "Your Balance is $#{balance}."
+  def display_balance
+    "Your Balance is $#{self.balance}."
   end
 
   def close_account
